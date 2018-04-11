@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]">
+  <parameter name="UserName" value="mngr74550"/>
+  <parameter name="browser" value="ie"/>
+  <parameter name="Password" value="EgejEdU"/>
+  <test name="Run on Chrome(failed)">
+    <parameter name="UserName" value="mngr74550"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="Password" value="EgejEdU"/>
+    <classes>
+      <class name="webdriver_10_testng.TestNG_MultiBrowser">
+        <methods>
+          <include name="TC_001"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- webdriver_10_testng.TestNG_MultiBrowser -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [Automation] -->

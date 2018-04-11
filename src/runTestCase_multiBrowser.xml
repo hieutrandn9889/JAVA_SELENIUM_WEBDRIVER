@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation" parallel="false">
+
+  <test name="Run on Firefox">
+  	<parameter name="browser" value="firefox"/>
+  	<parameter name="UserName" value="mngr74550"/>
+  	<parameter name="Password" value="EgejEdU"/>
+    <classes>
+      <class name="webdriver_10_testng.TestNG_MultiBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Run on Chrome">
+  	<parameter name="browser" value="chrome"/>
+  	<parameter name="UserName" value="mngr74550"/>
+  	<parameter name="Password" value="EgejEdU"/>
+    <classes>
+      <class name="webdriver_10_testng.TestNG_MultiBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Run on IE">
+  	<parameter name="browser" value="ie"/>
+  	<parameter name="UserName" value="mngr74550"/>
+  	<parameter name="Password" value="EgejEdU"/>
+    <classes>
+      <class name="webdriver_10_testng.TestNG_MultiBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

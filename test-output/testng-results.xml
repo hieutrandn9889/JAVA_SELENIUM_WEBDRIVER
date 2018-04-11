@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="122891" started-at="2017-06-16T15:47:10Z" finished-at="2017-06-16T15:49:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="122891" started-at="2017-06-16T15:47:10Z" finished-at="2017-06-16T15:49:13Z">
+      <class name="hieutran.demoUploadMulti">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:hieutran.demoUploadMulti@1ceabc1]" name="beforeTest" is-config="true" duration-ms="13528" started-at="2017-06-16T22:47:10Z" finished-at="2017-06-16T22:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_005_test()[pri:0, instance:hieutran.demoUploadMulti@1ceabc1]" name="TC_005_test" duration-ms="109327" started-at="2017-06-16T22:47:24Z" finished-at="2017-06-16T22:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:hieutran.demoUploadMulti@1ceabc1]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-16T22:49:13Z" finished-at="2017-06-16T22:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- hieutran.demoUploadMulti -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

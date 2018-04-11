@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test_Demo_01">
+  
+    <!-- Run class -->
+    <classes>
+      <class name="webdriver_10_testng.TestNG_Demo"/>
+    </classes>
+    
+    <!-- Run Groups -->
+    <groups>
+    	<run>
+    		<include name="testing"/>
+    		<include name="contribue"/>
+    	</run>
+    </groups>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
